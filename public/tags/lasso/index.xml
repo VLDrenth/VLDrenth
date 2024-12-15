@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Lasso on Random Learnings</title>
-    <link>http://localhost:1313/tags/lasso/</link>
+    <link>https://VLDrenth.github.io/tags/lasso/</link>
     <description>Recent content in Lasso on Random Learnings</description>
     <generator>Hugo -- 0.139.4</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 15 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/lasso/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://VLDrenth.github.io/tags/lasso/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Beyond LASSO</title>
-      <link>http://localhost:1313/posts/lasso1/</link>
+      <link>https://VLDrenth.github.io/posts/lasso1/</link>
       <pubDate>Sun, 15 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/lasso1/</guid>
+      <guid>https://VLDrenth.github.io/posts/lasso1/</guid>
       <description>A brief exploration of LASSO and its variants</description>
     </item>
   </channel>
