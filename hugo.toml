@@ -2,6 +2,7 @@ baseURL = 'https://VLDrenth.github.io'
 languageCode = 'en-us'
 title = 'Random Learnings'
 theme = 'PaperMod'
+publishDir = "docs"
 
 [params]
 defaultTheme = "auto"
