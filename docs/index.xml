@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Random Learnings</title>
-    <link>https://VLDrenth.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Random Learnings</description>
     <generator>Hugo -- 0.139.4</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 15 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://VLDrenth.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>https://VLDrenth.github.io/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Sun, 15 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://VLDrenth.github.io/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description>&lt;p&gt;This blog is made for me to learn in public about topics that interest me and motivate myself to actually write out what I learn. Topics that interest me are somewhere at the intersection of statistical learning, Bayesian statistics, time-series analysis, and deep learning. Expect butchered interpretations of classic textbooks, discussion of papers far beyond my comprehension, and other fun stuff!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Beyond LASSO</title>
-      <link>https://VLDrenth.github.io/posts/lasso1/</link>
+      <link>http://localhost:1313/posts/lasso1/</link>
       <pubDate>Sun, 15 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://VLDrenth.github.io/posts/lasso1/</guid>
+      <guid>http://localhost:1313/posts/lasso1/</guid>
       <description>A brief exploration of LASSO and its variants</description>
     </item>
   </channel>
