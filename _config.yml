@@ -1,0 +1,59 @@
+# Theme Settings
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "sunrise" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+# Site Settings
+title: "Random Learning"
+subtitle: "Machine Learning and Data"
+name: "Random Learning"
+description: "Technical writings about programming and technology"
+url: "https://VLDrenth.github.io"
+repository: "VLDrenth/VLDrenth.github.io"
+
+# Author Settings
+author:
+  name: "Vincent"
+  bio: "Data Scientist"
+
+# Site Footer
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/VLDrenth"
+
+# Defaults for posts
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      show_date: true
+      toc: true
+      toc_sticky: true
+
+# Reading Files
+include:
+  - _pages
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+  - jemoji
+
+# Pagination
+paginate: 5
+paginate_path: /page:num/
+
+# Search
+search: true
