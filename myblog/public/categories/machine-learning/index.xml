@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Machine Learning on Random Learnings</title>
+    <link>http://localhost:1313/categories/machine-learning/</link>
+    <description>Recent content in Machine Learning on Random Learnings</description>
+    <generator>Hugo -- 0.139.4</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 03 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LASSO and some variants</title>
+      <link>http://localhost:1313/posts/2024-12-15-lasso1/</link>
+      <pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2024-12-15-lasso1/</guid>
+      <description>&lt;h1 id=&#34;the-basics&#34;&gt;The basics&lt;/h1&gt;
+&lt;p&gt;One of the first &amp;lsquo;machine learning&amp;rsquo; many will come across is LASSO regression. This may suggest that it&amp;rsquo;s an elementary method; something to get you started on machine learning before moving to the more interesting topics. But there is a sea of methods that are adaptions of LASSO. The goal of this blog post is to give a brief overview of the landscape of these methods and where they might be useful. Understanding these other methods, many of which generalize the LASSO, should also help us gain a better understanding (and appreciation) of the &amp;lsquo;simple&amp;rsquo; version.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
