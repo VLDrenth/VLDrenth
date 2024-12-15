@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Random Learnings</title>
-    <link>https://VLDrenth.github.io/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Random Learnings</description>
     <generator>Hugo -- 0.139.4</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 15 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://VLDrenth.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lasso</title>
-      <link>https://VLDrenth.github.io/tags/lasso/</link>
+      <link>http://localhost:1313/tags/lasso/</link>
       <pubDate>Sun, 15 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://VLDrenth.github.io/tags/lasso/</guid>
+      <guid>http://localhost:1313/tags/lasso/</guid>
       <description></description>
     </item>
     <item>
       <title>Shrinkage</title>
-      <link>https://VLDrenth.github.io/tags/shrinkage/</link>
+      <link>http://localhost:1313/tags/shrinkage/</link>
       <pubDate>Sun, 15 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://VLDrenth.github.io/tags/shrinkage/</guid>
+      <guid>http://localhost:1313/tags/shrinkage/</guid>
       <description></description>
     </item>
   </channel>
