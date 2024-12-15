@@ -9,11 +9,12 @@ defaultTheme = "auto"
 ShowReadingTime = true
 ShowShareButtons = false
 ShowPostNavLinks = true
-
+math = true
 
 [params.footer]
 hidePowered = true
 hideCopyright = true
+
 
 [[params.socialIcons]]
 name = "github"

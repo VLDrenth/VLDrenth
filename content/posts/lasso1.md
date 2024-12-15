@@ -3,6 +3,7 @@ title: "Beyond LASSO"
 description: "A brief exploration of LASSO and its variants"
 date: 2024-12-15
 draft: false
+math: true
 tags: ["shrinkage", "lasso"]
 ---
 
