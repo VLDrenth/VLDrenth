@@ -22,22 +22,6 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
-markup:
-  goldmark:
-    extensions:
-      passthrough:
-        delimiters:
-          block:
-          - - \[
-            - \]
-          - - $$
-            - $$
-          inline:
-          - - $
-            - $
-        enable: true
-
-
 # Default to bash
 defaults:
   run:
