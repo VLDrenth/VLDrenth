@@ -15,16 +15,21 @@ publishDir = "public"
 
 
 [params]
-defaultTheme = "auto"
+defaultTheme = "light"
 ShowReadingTime = true
 ShowShareButtons = false
 ShowPostNavLinks = true
 math = true
+disableThemeToggle = true
+
+[params.assets]
+favicon = "/favicon.ico"
+favicon16x16 = "/favicon-16x16.png"
+favicon32x32 = "/favicon-32x32.png"
 
 [params.footer]
 hidePowered = true
 hideCopyright = true
-
 
 [[params.socialIcons]]
 name = "github"
