@@ -30,11 +30,10 @@ $$
 This is called Ridge regression, which has a unique minimizer for any positive penalty strengthThis is called Ridge regression, which has a unique minimizer for any positive penalty strength $$\lambda$$, even when we have many more features than observations! We can even get the solution in closed form by making use of the fact that the Euclidean norm is differentiable. This is a natural and convenient choice, but the Euclidean norm is only one out of many. Why not use the $$L_1$$ norm? This is also a viable choice, and is what gives us the LASSO estimator.
 
 # LASSO Regression
-LASSO shrinkage simply applies a different norm as penalty, but there are many differences. Just to spell it out, this is the problem LASSO solves: 
-$$
-\min_{\boldsymbol{\beta}} \left\{\|\boldsymbol{y} - \boldsymbol{X\beta}\|_2^2 + \lambda\sum_{j=1}^p|\boldsymbol{\beta}_j| \right\}.
-$$
-While similar to Ridge, there are many key differences to explore. First a practical issue: the $$L_1$$ norm is not differentiable, so there is no closed form solution anymore. Thankfully, it is true that all valid norms are convex (how lucky!), which means this is still an 'easy' problem to solve. More on that later.
+LASSO shrinkage simply applies a different norm as penalty, but there are many differences. Just to spell it out, this is the problem LASSO solves: $$
+\min_{\boldsymbol{\beta}} \left\{\|\boldsymbol{y} - \boldsymbol{X\beta}\|_2^2 + \lambda\sum_{j=1}^p|\boldsymbol{\beta}_j| \right\}.$$
+
+While similar to Ridge, there are many key differences to explore. First a practical issue: the $L_1$ norm is not differentiable, so there is no closed form solution anymore. Thankfully, it is true that all valid norms are convex (how lucky!), which means this is still an 'easy' problem to solve. More on that later.
 
 More interesting, is how the two penalties differ in the resulting estimates. To explain this, I can't do any better than the bible of classical ML: the Elements of Statistical Learning. The gist of the argument is this. We can consider the minimization problems above as Lagrangians of a constrained optimization problem. Both Ridge and LASSO aim to minimize the sum of squared errors, but differ in their constraint. The Ridge constraint is $\| \boldsymbol{\beta} \|_2^2 \leq t$ and analously the LASSO constraint is $\| \boldsymbol{\beta} \|_1 \leq t$ (Exercise: What is the value of $t$?). Below you see the feasible region in a simple 2D case as well as the contours which represent a value of the squared loss for some set of coefficients. Notice that the LASSO region has a sharp edge and may intersect with a contour line at a corner, where one of the coefficients equals zero. Ridge, on the other hand, is smooth and will always have non-zero coefficients. This is the crucial difference between Ridge and LASSO: LASSO sets some subset of the predictor's coefficients to zero and thus searches for a _sparse_ solution. 
 

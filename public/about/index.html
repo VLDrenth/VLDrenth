@@ -55,7 +55,18 @@
         }
 
     </style>
-</noscript><meta property="og:url" content="https://VLDrenth.github.io/about/">
+</noscript>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css" integrity="sha384-GvrOXuhMATgEsSwCs4smul74iXGOixntILdUW9XmUC6+HX0sLNAK3q71HotJqlAn" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js" integrity="sha384-cpW21h6RZv/phavutF+AuVYrr+dA8xD9zs6FwLpaCct6O9ctzYFfFr4dgmgccOTx" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
+    onload="renderMathInElement(document.body, {
+        delimiters: [
+            {left: '$$', right: '$$', display: true},
+            {left: '$', right: '$', display: false}
+        ],
+        throwOnError: false
+    });"></script>
+<meta property="og:url" content="https://VLDrenth.github.io/about/">
   <meta property="og:site_name" content="Random Learnings">
   <meta property="og:title" content="About">
   <meta property="og:description" content="This blog is made for me to learn in public about topics that interest me and motivate myself to actually write out what I learn. Topics that interest me are somewhere at the intersection of statistical learning, Bayesian statistics, time-series analysis, and deep learning. Expect butchered interpretations of classic textbooks, discussion of papers far beyond my comprehension, and other fun stuff!">
@@ -215,6 +226,7 @@
             localStorage.setItem("menu-scroll-position", menu.scrollLeft);
         }
     }
-</script></body>
+</script>
+</body>
 
 </html>
